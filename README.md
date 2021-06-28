@@ -1,4 +1,4 @@
-# Set up instructions
+# Setup instructions
 
 1. Install [Python 3](https://www.python.org/downloads/). On macOS you can do it with homebrew:
 ```bash
