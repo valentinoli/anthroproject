@@ -40,7 +40,7 @@ pip install -r requirements.txt
 python json2csv.py
 ```
 
-The script downloads the AWS raw data files, executes transformations, and outputs into CSV files
+The script downloads the AWS raw JSON data files, executes transformations, and outputs into CSV files
 
-The JSON files are stored in data/json/
-The resulting CSV files are stored in data/csv/
+The JSON files are stored in `data/json/`
+The resulting CSV files are stored in `data/csv/`
