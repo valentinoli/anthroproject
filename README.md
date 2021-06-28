@@ -10,14 +10,14 @@ brew install python
 cd anthroproject
 ```
 
-3. Set up Python virtual environment:
+3. Set up your Python virtual environment:
+```bash
 python -m venv ./env-anthroproject
 ```
 
 This creates a folder for your virtual environment `env-anthroproject` where all the required packages are saved.
 
-3.
-Activate the virtual environment. Here is how you to it on Windows:
+4. Activate the virtual environment. Here is how you to it on Windows:
 ```bash
 .\env-anthroproject\Scripts\activate
 ```
@@ -27,15 +27,15 @@ Here is how you do it on macOS:
 source env-anthroproject/bin/activate
 ```
 
-3. Install the required Python packages (in the activated environment):
+5. Install the required Python packages (in the activated environment):
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Put your `credentials` file in the folder.
+6. Put your `credentials` file in the folder.
 
-5. Run the Python script 
+7. Run the Python script 
 ```bash
 python json2csv.py
 ```
